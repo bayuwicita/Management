@@ -84,29 +84,25 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
-────────────────────────
-I'm a powerful group management bot built to help you manage your group!
-────────────────────
-Hit the /help or tap on button to se available command on Me.
+**Welcome to Hunter Association 🤖**
+**Hunter Robot** is a bot Manager and Music that will make it easier for you to manage telegram groups.
+
+✤ Pres /help for Help.
+🧑‍💻 Maintaned by: @DreamFound
 """
 
 buttons = [
         [
         InlineKeyboardButton(
-            text=f"➕️ Add {BOT_NAME} to your group ➕️", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text=f"➕️ Add Me To Your Group ➕️", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="Support", url=f"https://t.me/{SUPPORT_CHAT}"
-        ),
-        InlineKeyboardButton(
-            text="TryInline", switch_inline_query_current_chat=""
-        ),
+        InlineKeyboardButton("DONATE", url="https://t.me/HxHSupport"),
+        InlineKeyboardButton("LIVE CHAT", url="https://t.me/HxHSupport")
     ],
     [
-        InlineKeyboardButton(text="Help & Commands❔", callback_data="help_back"
-        ),
+        InlineKeyboardButton("✘ CHANNEL SUPPORT ✘", url="https://t.me/HxHSupport")
     ],
 ]
 
