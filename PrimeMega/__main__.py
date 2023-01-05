@@ -86,10 +86,10 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗛𝘂𝗻𝘁𝗲𝗿 𝗔𝘀𝘀𝗼𝗰𝗶𝗮𝘁𝗶𝗼𝗻 🤖
 
-𝗛𝘂𝗻𝘁𝗲𝗿 𝗥𝗼𝗯𝗼𝘁 is a bot Manager and Music that will make it easier for you to manage telegram groups.
+Hunter Robot is a bot Manager and Music that will make it easier for you to manage telegram groups.
 
 ✤  Press /help for Help.
-🧑‍💻 Maintaned by: @DreamFound
+✤  Maintaned by: @DreamFound
 """
 
 buttons = [
