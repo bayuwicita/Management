@@ -84,9 +84,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗛𝘂𝗻𝘁𝗲𝗿 𝗔𝘀𝘀𝗼𝗰𝗶𝗮𝘁𝗶𝗼𝗻 🤖
+𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗛𝗜𝗬𝗢𝗥𝗜 𝗠𝗨𝗦𝗜𝗖 🤖
 
-Hunter Robot is a bot Manager and Music that will make it easier for you to manage telegram groups.
+Hiyori Music is a bot Manager and Music that will make it easier for you to manage telegram groups.
 
 ✤  Press /help for Help.
 ✤  Maintaned by: @DreamFound
